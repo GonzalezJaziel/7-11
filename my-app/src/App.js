@@ -5,18 +5,19 @@ import * as React from 'react';
 import Button from '@mui/material/Button';
 import VoiceChatOutlinedIcon from '@mui/icons-material/VoiceChatOutlined';
 import ArrowBackIosNewOutlinedIcon from '@mui/icons-material/ArrowBackIosNewOutlined';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
+import Login from './componets/Login';
+import Typography from '@mui/material/Typography';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         
 
         <p>
           
-        </p>
-        {/* icon */}
-        <br />
+
+         icon 
+         <br />
         <JavascriptIcon color='secondary' fontSize='large'/>
         <a
           className="App-link"
@@ -35,7 +36,8 @@ function App() {
       endIcon={<ArrowBackIosNewOutlinedIcon />}
         >
           zoom link</Button>
-      </header>
+      </header>  */}
+      <Login/> 
     </div>
   );
 }
